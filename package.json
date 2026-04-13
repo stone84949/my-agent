@@ -8,6 +8,6 @@
     "reset-auth": "thepopebot reset-auth"
   },
   "dependencies": {
-    "thepopebot": "^1.0.0"
+    "thepopebot": "^1.2.76-beta.10"
   }
 }
