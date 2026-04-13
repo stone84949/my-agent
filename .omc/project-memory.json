@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775616962304,
+  "projectRoot": "D:\\05-Areas\\GITHUB\\thepopebot\\my-agent",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "setup": "thepopebot setup",
+      "setup-telegram": "thepopebot setup-telegram",
+      "reset-auth": "thepopebot reset-auth"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "agent-job": {
+      "path": "agent-job",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1775616962219,
+      "keyFiles": [
+        "CLAUDE.md",
+        "CRONS.json",
+        "HEARTBEAT.md",
+        "SOUL.md",
+        "SYSTEM.md"
+      ]
+    },
+    "agents": {
+      "path": "agents",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775616962220,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 2,
+      "lastAccessed": 1775616962224,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "event-handler": {
+      "path": "event-handler",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1775616962224,
+      "keyFiles": [
+        "CLAUDE.md",
+        "SUMMARY.md",
+        "TRIGGERS.json"
+      ]
+    },
+    "logs": {
+      "path": "logs",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775616962224,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "skills": {
+      "path": "skills",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775616962225,
+      "keyFiles": [
+        "CLAUDE.md"
+      ]
+    },
+    "traefik-config": {
+      "path": "traefik-config",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775616962225,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
