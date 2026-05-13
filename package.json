@@ -1,0 +1,19 @@
+{
+  "name": "my-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "setup": "thepopebot setup",
+    "setup-ssl": "thepopebot setup-ssl",
+    "reset-auth": "thepopebot reset-auth"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "thepopebot": "^1.2.81"
+  }
+}
